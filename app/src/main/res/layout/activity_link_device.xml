@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:backgroundTint="#FDFDFD"
+    tools:context=".FillInformation"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/btnSave1"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#374651"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toEndOf="@+id/btnCancle1"
+        app:layout_constraintTop_toBottomOf="@+id/edVehicleType" />
+
+    <Button
+        android:id="@+id/btnCancle1"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#374651"
+        android:text="Cancle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edVehicleType" />
+
+    <EditText
+        android:id="@+id/edLicence"
+        android:layout_width="330dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_1"
+
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:text="  Licence Place" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="338dp"
+        android:text="Vehicle Type :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edLicence" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="170dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="221dp"
+        android:text="Licence Place :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edDeviceID" />
+
+    <EditText
+        android:id="@+id/edDeviceID"
+        android:layout_width="330dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/custom_1"
+
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:text="  DeviceID" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="322dp"
+        android:text="Device ID :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/edVehicleType"
+        android:layout_width="330dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/custom_1"
+
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        tools:text="  Vehicle Type" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="97dp"
+        android:backgroundTint="#374651"
+        android:fontFamily="@font/notosans"
+        android:text="Link Device"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

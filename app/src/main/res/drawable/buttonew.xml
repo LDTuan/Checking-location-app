@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="#4CAF50"/> <!-- Màu nền (xanh lá cây) -->
+        <corners android:radius="8dp"/> <!-- Bo góc ít hơn (8dp) -->
+        <stroke android:width="2dp" android:color="#D17B00"/> <!-- Viền Button -->
+        <padding
+            android:left="10dp"
+            android:top="10dp"
+            android:right="10dp"
+            android:bottom="10dp" />
+    </shape>
+</selector>

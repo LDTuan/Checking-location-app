@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208966254607",
+    "project_id": "crash-and-theft-detection",
+    "storage_bucket": "crash-and-theft-detection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208966254607:android:8f04039080705f3bc5237a",
+        "android_client_info": {
+          "package_name": "com.example.datn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ufR6RsooQ_mxU1AR8KYTt3MU3sykIEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

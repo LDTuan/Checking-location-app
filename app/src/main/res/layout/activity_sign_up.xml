@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:backgroundTint="#FDFDFD"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="138dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:text="Re-enter PassWord :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPassWordSU" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="138dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:text="Re-enter PassWord :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPassWordSU" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="#374651"
+        android:text="Sign Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edOTP" />
+
+    <EditText
+        android:id="@+id/edRePassWord"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_1"
+        android:drawableStart="@drawable/baseline_vpn_key_24"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:text="  Re-enter PassWord" />
+
+    <EditText
+        android:id="@+id/edOTP"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_1"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edRePassWord"
+        tools:text="  OTP Code" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="138dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="253dp"
+        android:text="OTP Code :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edRePassWord" />
+
+    <EditText
+        android:id="@+id/edUserNameSU"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_1"
+        android:drawableStart="@drawable/baseline_supervised_user_circle_24"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:text="  UserName" />
+
+    <EditText
+        android:id="@+id/edPassWordSU"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_1"
+        android:drawableStart="@drawable/baseline_vpn_key_24"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:text="  PassWord" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="106dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="285dp"
+        android:text="PassWord :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edUserNameSU" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="142dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="249dp"
+        android:text="PhoneNumber/Email :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:fontFamily="monospace"
+        android:text="Sign Up"
+        android:textColor="#374550"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="49dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#FBFBFB"
+        app:icon="@drawable/baseline_arrow_back_ios_24"
+        app:iconPadding="0dp"
+        app:iconSize="33dp"
+        app:iconTint="#374651"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/txtSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Send OTP"
+        android:textColor="#374550"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/edOTP"
+        app:layout_constraintEnd_toEndOf="@+id/edOTP"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="@+id/edOTP" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
